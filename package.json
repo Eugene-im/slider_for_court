@@ -1,0 +1,26 @@
+{
+  "name": "slider_for_court",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eugene-im/slider_for_court.git"
+  },
+  "keywords": [
+    "slider"
+  ],
+  "author": "Eugene-im",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eugene-im/slider_for_court/issues"
+  },
+  "homepage": "https://github.com/Eugene-im/slider_for_court#readme",
+  "dependencies": {
+    "fullcalendar": "^3.9.0",
+    "jquery": "^3.3.1"
+  }
+}

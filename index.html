@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>slider login page</title>
+
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body,html{
+            height: 100%;
+            color: #f9f9f9;
+    font-size: 20px;
+
+        }
+        .wrapper{
+            background: #333;
+            min-height: 100vh;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+        form{
+            max-width: 800px;
+            min-height:100vh; 
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        input{
+            max-width: 500px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #616161;
+    padding: 10px 0;
+    color: #f9f9f9;
+    caret-color: #2F98E5;
+    margin-bottom: 25px;
+    font-size: 20px;
+        }
+        button:focus,input:focus{
+            outline:none;
+            border:none;
+            border-bottom: 2px solid #2F98E5;
+        }
+        label{
+            color:#616161;
+        }
+        label:focus{color: #2F98E5}
+        button{
+            background: none;
+            border:none;
+            border-bottom: 2px solid #2F98E5;
+            color: #707070;
+    padding: 10px 0;
+    font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="post" class="login">
+            <!-- <label for="login">login</label> -->
+            <input id="login" type="text" placeholder="login">
+            <!-- <label for="password">password</label> -->
+            <input id="password" type="password" placeholder="password">
+            <button>login</button>
+        </form>
+    </div>
+</body>
+
+</html>
